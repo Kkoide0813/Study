@@ -67,5 +67,6 @@ class Pet {
     public String getIntroduction(){
         return getType() + "の" + getName() + "は" + getGender() + "で" + getAge() + "歳です。";
 
+        // さらに1行追加
     }
 }
